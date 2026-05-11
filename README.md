@@ -72,10 +72,6 @@ An interactive challenge mode where:
 ├── app.py
 ├── templates/
 ├── static/
-├── model/
-├── filters/
-├── analytics/
-├── haarcascade/
 └── README.md
 ```
 
