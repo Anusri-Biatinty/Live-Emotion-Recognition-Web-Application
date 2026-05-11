@@ -1,116 +1,52 @@
-# Live Emotion Recognition Web Application 🎭
+# Real-Time Facial Emotion Recognition with Visual Filters and Gamification Using CNN and Flask
 
-Live Emotion Recognition Web Application is an AI-powered system that detects and analyzes human emotions in real time using webcam input. Built with Deep Learning, Flask, and OpenCV, the application combines emotion recognition, interactive visual filters, live analytics, and gamification features to deliver an engaging user experience.
+This project showcases a real-time Facial Emotion Recognition (FER) system built using a CNN model, Flask backend, and OpenCV video processing pipeline. It features dynamic visual filters, real-time emotion analytics, and an interactive gamification engine that challenges users to match specific emotions within a 30-second window.
 
----
-
-## 🌟 Core Features
-
-### 🔹 Real-Time Emotion Detection
-- Live webcam-based facial emotion recognition
-- Fast face detection using Haar Cascade
-- CNN-based emotion classification model
-- Supports detection of:
-  - Happy
-  - Sad
-  - Angry
-  - Fear
-  - Neutral
-  - Surprise
-  - Disgust
+> **Note:** Due to GitHub file-size limitations, the dataset, virtual environment (`emotion_env`), and model file (`emotion_cnn_model.h5`) are not uploaded.
 
 ---
 
-### 🔹 Interactive Camera Filters
-The application includes multiple real-time visual effects such as:
+## 🎯 Key Features
 
-- Cartoon
-- Pencil Sketch
-- Sepia
-- Blur
-- Emboss
-- Vintage
-- Solarize
-- Posterize
-- Lomo
-- Warm & Cool Tone Filters
+### 🔹 Real-Time Emotion Prediction
+- Live webcam-based processing  
+- Haar Cascade face detection  
+- CNN model trained on 48×48 grayscale dataset  
+- Predicts: **angry, disgust, fear, happy, neutral, sad, surprise**
 
----
+### 🔹 Advanced Visual Filters
+Live filters include:
+- Sketch  
+- Emboss  
+- Sepia  
+- Gray  
+- Pencil  
+- Cartoon / Cartoon-2  
+- Blur  
+- Vintage  
+- Lomo  
+- Hot / Cold / Winter / Spring  
+- Solarize, Posterize  
 
-### 🔹 Emotion Analytics Dashboard
-- Tracks recently detected emotions
-- Displays live emotion statistics
-- Dynamic chart visualization using Chart.js
-- Real-time dashboard auto-refresh
-
----
+### 🔹 Real-Time Emotion Analytics
+- Tracks last 100 predicted emotions  
+- Visualized through Chart.js bar chart  
+- Auto-refreshing every second  
 
 ### 🔹 Gamification System
-An interactive challenge mode where:
-- A random target emotion is generated
-- Users must match the emotion within a time limit
-- Scores are updated based on successful matches
+- Random emotion target assignment  
+- 30-second timer  
+- Score increments when dominant emotion matches the target  
+- Simple yet engaging game flow  
 
 ---
 
-## 🧠 Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Backend Logic |
-| Flask | Web Framework |
-| OpenCV | Video & Image Processing |
-| TensorFlow | CNN Model |
-| HTML/CSS/JavaScript | Frontend Development |
-| Chart.js | Data Visualization |
-
 ---
 
-## 📂 Project Structure
+## ⚠️ Files Not Added to GitHub
 
-```bash
-├── app.py
-├── templates/
-├── static/
-├── model/
-├── filters/
-├── analytics/
-├── haarcascade/
-└── README.md
-```
+Due to heavy size of Dataset files im unable to push it to git repo , for reference you can check the below sample dataset .
 
----
-
-## ⚠️ Repository Notice
-
-Some project resources are not uploaded due to GitHub file-size limitations.
-
-Excluded Files:
-- FER-2013 Dataset
-- Trained CNN Model (`emotion_cnn_model.h5`)
-- Virtual Environment (`emotion_env`)
-
-Dataset Reference:
-https://www.kaggle.com/datasets/msambare/fer2013
-
----
-
-## 🚀 Future Scope
-
-- Improve prediction accuracy
-- Add cloud deployment support
-- Introduce user authentication
-- Create leaderboard functionality
-- Develop mobile-compatible version
-
----
-
-## 📌 Objective
-
-The project aims to combine Artificial Intelligence, Computer Vision, and User Interaction into a real-time web application capable of recognizing and analyzing human emotions dynamically.
-
----
-
-## 👨‍💻 Developed By
-
-Anusri Biatinty
+### 1. Dataset  
+Download FER-2013 dataset:  
+https://www.kaggle.com/datasets/msambare/fer2013  
