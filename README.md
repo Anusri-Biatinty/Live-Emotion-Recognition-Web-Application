@@ -60,7 +60,7 @@ An interactive challenge mode where:
 | Python | Backend Logic |
 | Flask | Web Framework |
 | OpenCV | Video & Image Processing |
-| TensorFlow / Keras | CNN Model |
+| TensorFlow | CNN Model |
 | HTML/CSS/JavaScript | Frontend Development |
 | Chart.js | Data Visualization |
 
